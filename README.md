@@ -4,16 +4,7 @@
 
 This project demonstrates how to create and configure an Azure Virtual WAN to connect multiple regional networks securely and efficiently. The lab simulates Contoso’s network architecture, connecting resources across West US and Southeast Asia regions.
 
-🧩 Architecture
 
-Deployment Components:
-
-Component	Name / Address	Description
-Virtual WAN	ContosoVirtualWAN	Central hub for global network connectivity
-Virtual Hub	ContosoVirtualWANHub-WestUS (10.60.0.0/24)	Regional hub in West US
-VNet	ResearchVnet (10.40.0.0/16)	Virtual network in Southeast Asia
-Subnet	ResearchSystemSubnet (10.40.0.0/24)	Subnet inside ResearchVnet
-Connection	ResearchVNet-to-ContosoVirtualWANHub	VNet-to-hub connection
 
 Traffic Flow:
 Traffic between the Research VNet in Southeast Asia and the Virtual WAN Hub in West US is routed securely through Azure’s global backbone.
@@ -65,9 +56,6 @@ VNets and subnets
 
 Resource Group (optional)
 
-⏱️ Estimated Time
-
-~65 minutes total (including ~45 minutes deployment wait time)
 
 🧰 Tools & Services Used
 
