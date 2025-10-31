@@ -1,4 +1,4 @@
-🌐 Azure Virtual WAN - Contoso Network Connectivity Lab
+🌐 Azure Virtual WAN - Network Connectivity 
 
 📘 Overview
 
